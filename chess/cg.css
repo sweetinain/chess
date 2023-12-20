@@ -1,0 +1,20 @@
+.chess-board { border-spacing: 0; border-collapse: collapse; }
+.chess-board th { padding: .15em; }
+.chess-board td { border: 2px solid; width: 2em; height: 2em; }
+.chess-board .light { background: #eee; }
+.chess-board .dark { background: #000; }
+
+.chess-board td:hover{
+    color: aqua;
+    background-color: white;
+}
+
+.logo{
+    color: white;
+    size: 10px;
+    text-align: center;
+}
+.light{
+    text-align: center;
+    size-adjust: 50px;
+}
